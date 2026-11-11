@@ -1,52 +1,40 @@
 body {
-    background-color: rgb(38, 38, 93);
+    background-color: rgb(75, 75, 134);
 }
 
-h1 {
-    align-items: center;
-    justify-content: center;
+h1, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-align: center;
-    width: 1000px;
-    border: 5px solid rgb(108, 108, 174);
-    border-radius: 25px;
-    margin: 0 auto;
-    display: flex;   /* Centraliza na vertical */
-    height: 50px; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-p {
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#title {
+    background-color: rgb(113, 113, 154);
 }
 
-.btn {
-    display: inline-block;
-    padding: 50px 120px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: right;
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    border: 5px solid rgb(102, 102, 209);
-    border-radius: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    transition: background-color 0.3s ease, transform 0.1s ease; 
+#descimg {
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 35px
 }
 
-.btn-primary {
-    background-color: rgb(80, 80, 153);
+#desctext {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 35px
 }
 
-.btn-primary:hover {
-    background-color: rgb(45, 45, 104);
+.container {
+    display: flex;
+    align-items: center; 
+    gap: 15px;
 }
 
-.btn-primary:active {
-    transform: scale(0.98);
+#desc {
+    margin-top: 30px;
+    margin-right: 35px;
+    text-align: justify;
 }
