@@ -3,5 +3,5 @@
 <br>Este projeto é uma demonstração do uso do HTML e do CSS. Trata-se de um site contendo a evolução do Windows, do XP ao 11.</br>
 <br>Contém imagens.</br>
 
-<br>O objetivo é mostrar o uso do CSS na prática. Não foi realizado o uso de quaisquer IAs.</br>
+<br>O objetivo é mostrar o uso do CSS na prática.</br>
 
