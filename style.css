@@ -2,39 +2,54 @@ body {
     background-color: rgb(75, 75, 134);
 }
 
-h1, p {
+h1, p, figcaption {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-align: center;
 }
 
-#title {
+.title {
     background-color: rgb(113, 113, 154);
 }
 
-#descimg {
+.img {
     border-style: solid;
     border-color: white;
     border-radius: 50px;
     text-align: left;
-    margin-top: 20px;
-    margin-left: 35px
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
-#desctext {
+.descimg {
     text-align: left;
-    margin-top: 20px;
-    margin-left: 35px
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
-.container {
+.desctext {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.versao-windows {
     display: flex;
     align-items: center; 
     gap: 15px;
 }
 
-#desc {
-    margin-top: 30px;
+.desc {
+    margin-top: 0px;
     margin-right: 35px;
     text-align: justify;
+}
+
+@media (max-width: 650px) {
+    .versao-windows {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        gap: 15px;
+    }
 }
