@@ -2,17 +2,18 @@ body {
     background-color: rgb(75, 75, 134);
 }
 
-h1, p, figcaption {
+h1, p, figcaption, a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-align: center;
+    text-decoration: none;
 }
 
 .title {
     background-color: rgb(113, 113, 154);
 }
 
-.img {
+img {
     border-style: solid;
     border-color: white;
     border-radius: 50px;
@@ -33,9 +34,9 @@ h1, p, figcaption {
     margin-left: 35px;
 }
 
-.versao-windows {
+.imgbox1 {
     display: flex;
-    align-items: center; 
+    align-items: center;
     gap: 15px;
 }
 
@@ -46,10 +47,59 @@ h1, p, figcaption {
 }
 
 @media (max-width: 650px) {
-    .versao-windows {
+    .imgbox1 {
         display: flex;
         flex-direction: column;
         align-items: center; 
         gap: 15px;
     }
+}
+
+p, a, h1, hr, img {
+    margin: 0px;
+    padding: 1px;
+}
+
+.naveg {
+    background-color: rgb(113, 100, 149);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: white;
+    padding: 1px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2 ease, transform 0.15s ease;
+}
+
+a:hover {
+    color: rgb(72, 64, 98)
+}
+
+a:active {
+    color: rgb(46, 37, 59)
+}
+
+.sobredesc {
+    font-size: 20px;
+}
+
+.sobreimg {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.link:hover {
+    color: rgb(101, 94, 142)
+}
+
+.contato{
+    margin-top: 10px;
 }
